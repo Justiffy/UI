@@ -1,6 +1,50 @@
-.centerStories {
+#root {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.index_button_wrapp {
+  width: 600px;
+}
+
+.normal_button {
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blue_intro {
+  background-color: #1f84db
+}
+
+.white_intro {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #c5c5c5;
+}
+
+.gray_intro {
+  color: #000;
+  box-shadow: 0px 1px 3px 0 #00000033;
+  background-image: linear-gradient(to top, #f8f8f8, #ffffff);
+}
+
+.blue_hover {
+  background-color: #fb3a2f;
+  color: #fff;
+}
+
+.white_hover {
+  background-color: #fff;
+  color: #000;
+  border: solid 1px #000;
+}
+
+.gray_hover {
+  color: #fff;
+  box-shadow: 0px 1px 3px 0 #00000033;
+  background-image: none;
+  background-color: #fb3a2f;
 }

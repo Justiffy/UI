@@ -1,10 +1,7 @@
 import { configure, addDecorator } from '@storybook/react'
 import {setOptions} from '@storybook/addon-options'
-import centered from '@storybook/addon-centered'
 import { withKnobs } from '@storybook/addon-knobs'
 
-
-addDecorator(centered)
 addDecorator(withKnobs)
 
 
@@ -15,7 +12,8 @@ function loadStories() {
 setOptions({
   name: 'My stories',
   url: 'Nope',
-  sidebarAnimations: true
+  sidebarAnimations: true,
+  downPanelInRight: true
 })
 
 configure(loadStories, module)
